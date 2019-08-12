@@ -2,7 +2,7 @@ let test = [1,2,3,4,5,6,7,8,9,10,11]
 
 function chunk(array, size){
     let chunked = []
-    let section = []
+
     if(size >= array.length){
         chunked.push(array)
     }

@@ -94,8 +94,8 @@ function memoizer(funct){
 
 let runner = memoizer(fibRec)
 
-console.log(runner(10))
+// console.log(runner(10))
 
 
 
-console.log(fibRec(10))
+// console.log(fibRec(10))
